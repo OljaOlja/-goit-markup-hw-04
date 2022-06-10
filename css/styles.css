@@ -141,6 +141,8 @@ body {
 }
 
 .header-mail {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -150,12 +152,13 @@ body {
 }
 
 .header-mail-icon {
-  display: inline-block;
   fill: currentColor;
   margin-right: 10px;
   align-self: center;
 }
 .header-tel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -164,7 +167,6 @@ body {
 }
 
 .header-tel-icon {
-  display: inline-block;
   fill: currentColor;
   margin-right: 10px;
   align-self: center;
